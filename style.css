@@ -1,0 +1,108 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+body{
+  background-image:url('./images/pattern-background-desktop.svg');
+  background-color: hsl(225, 100%, 94%);
+  background-repeat:no-repeat;
+  background-size:cover;
+  display:flex;
+  justify-content: center;
+  margin:10px;
+  font-size:16px;
+  align-items: center;
+  width:100%;
+}
+#card{
+  width:350px;
+  display:block;
+  background-color: white;
+  border-radius: 20px;
+  text-align: center;
+  padding:20px;
+}
+#card img{
+  width:100%;
+  margin-bottom:20px;
+}
+#card h1{
+  font-size: 16px;
+  margin:20px 0 10px;
+}
+#card > p{
+  font-size:16px;
+  color: hsl(224, 23%, 55%);
+  padding : 0 20px;
+  margin-bottom: 20px;
+}
+#card1{
+  display:flex;
+  align-items: center;
+  background-color: hsl(225, 100%, 98%);
+  border-radius: 12px;
+  padding:15px;
+  justify-content :center;
+  width:300px;
+  margin: 0 auto;
+  height:70px
+}
+#card1 img{
+  width:30px;
+  height:40px;
+  margin-right:20px;
+  margin-top:10px;
+}
+#card1 div{
+  text-align: left;
+}
+#card1 h2{
+  font-size: 16px;
+  margin-bottom: 15px;
+  color: hsl(223, 47%, 23%);
+  margin:0
+}
+#card1 p{
+  font-size: 14px;
+  color: hsl(224, 23%, 55%);
+  margin: 5px 0;
+}
+#card1 a{
+  font-size:16px;
+  font-weight: bold;
+  color: hsl(245, 75%, 52%);
+  text-decoration: underline;
+  margin-left: auto;
+  transition:color 0.3s;
+}
+
+.button-group{
+  display:flex;
+  gap:10px;
+  justify-content: center;
+  margin-top:20px;
+}
+.cancel-container{
+  margin-top:15px;
+  text-align:center;
+}
+.payment-btn{
+   background-color: hsl(245, 75%, 52%);
+   color:white;
+   width:350px;
+   padding:14px 20px;
+   font-weight:bold;
+   border-radius:10px;
+   margin :0 auto;
+   text-align: center;
+}
+.cancel-btn{
+  background: none;
+  color:hsl(224,23%,55%);
+  border: none;
+  margin:0 auto;
+  padding:auto;
+  transition:color;
+
+}
